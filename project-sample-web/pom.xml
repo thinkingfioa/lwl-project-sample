@@ -8,14 +8,30 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>project-sample-web</artifactId>
     <packaging>war</packaging>
+
     <name>project-sample-web Maven Webapp</name>
+
     <url>http://maven.apache.org</url>
+
+    <properties>
+
+    </properties>
+
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>com.thinking</groupId>
+            <artifactId>project-sample-client</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thinking</groupId>
+            <artifactId>project-sample-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thinking</groupId>
+            <artifactId>project-sample-core</artifactId>
+            <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
     <build>

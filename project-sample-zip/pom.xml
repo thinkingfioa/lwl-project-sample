@@ -11,5 +11,23 @@
 
     <artifactId>project-sample-zip</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.thinking</groupId>
+            <artifactId>project-sample-client</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thinking</groupId>
+            <artifactId>project-sample-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thinking</groupId>
+            <artifactId>project-sample-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
