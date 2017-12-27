@@ -14,11 +14,23 @@
     <url>http://maven.apache.org</url>
 
     <dependencies>
+        <!-- springframe start -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <!-- servlet start -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${javax.servlet-api.version}</version>
+        </dependency>
+        <!-- sub project start -->
         <dependency>
             <groupId>com.thinking</groupId>
             <artifactId>project-sample-client</artifactId>
