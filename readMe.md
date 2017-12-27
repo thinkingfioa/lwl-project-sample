@@ -17,10 +17,41 @@ lwl-project-sample项目创建的目的是：快速容易开启一个项目。�
 |project-sample-zip|项目独立启动子模块|
 |project-some-sample|基础的学习项目|
 
-### 1.5 环境
+### 1.3 环境
 - JDK：1.7+
 - Maven：3+
 - Idea：2017
 
-### project-some-sample模块
+## 二、模块介绍
+
+### 2.1 project-sample-web模块
+project-sample-web模块是一个web项目，由于web技术种类复杂，该模块只提供基础功能:
+
+- spring配置
+- log4j配置
+- springmvc配置
+
+#### 2.1.1 模块目录详解
+
+### 2.2 project-some-sample模块
 project-some-sample模块存放日常学习的项目，供以后学习和参考。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
