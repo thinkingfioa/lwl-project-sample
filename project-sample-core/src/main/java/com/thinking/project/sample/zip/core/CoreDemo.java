@@ -1,4 +1,4 @@
-package com.thinking.project.sample.core;
+package com.thinking.project.sample.zip.core;
 
 /**
  * @author thinking_fioa
