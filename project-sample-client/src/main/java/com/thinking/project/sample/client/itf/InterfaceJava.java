@@ -1,4 +1,4 @@
-package com.thinking.projectname.core;
+package com.thinking.project.sample.client.itf;
 
 /**
  * @author thinking_fioa
@@ -7,5 +7,5 @@ package com.thinking.projectname.core;
  */
 
 
-public class CoreJava {
+public class InterfaceJava {
 }

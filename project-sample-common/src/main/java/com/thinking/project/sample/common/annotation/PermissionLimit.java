@@ -1,4 +1,4 @@
-package com.thinking.projectname.common.annotation;
+package com.thinking.project.sample.common.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package com.thinking.projectname.common;
+package com.thinking.project.sample.common;
 
 /**
  * @author thinking_fioa

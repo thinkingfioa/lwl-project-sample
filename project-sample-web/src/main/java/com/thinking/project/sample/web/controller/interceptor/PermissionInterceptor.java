@@ -1,6 +1,6 @@
 package com.thinking.project.sample.web.controller.interceptor;
 
-import com.thinking.projectname.common.annotation.PermissionLimit;
+import com.thinking.project.sample.common.annotation.PermissionLimit;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 public class PermissionInterceptor extends HandlerInterceptorAdapter{
 
     public static boolean ifLogin(HttpServletRequest request) {
-        //todo:: 提供登录判断逻辑
+        //todo:: 提供登录判断逻辑，利用{@Code CookieUtil}工具类
         return true;
     }
 
