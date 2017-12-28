@@ -15,7 +15,7 @@ lwl-project-sample项目创建的目的是：快速容易开启一个项目。�
 |project-sample-core|项目核心实现部分|
 |project-sample-web|项目管理平台|
 |project-sample-zip|项目独立启动子模块|
-|project-some-sample|基础的学习项目|
+|project-some-sample|基础的学习子项目|
 
 ### 1.3 环境
 - JDK：1.7+

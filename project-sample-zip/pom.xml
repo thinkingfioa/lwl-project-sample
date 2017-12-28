@@ -90,9 +90,9 @@
                     <excludes>
                         <exclude>*.properties</exclude>
                     </excludes>
-                    <manifestEntries>
-                        <Main-Class>com.thinking.project.sample.zip.start.StartProject</Main-Class>
-                    </manifestEntries>
+                    <!--<manifestEntries>-->
+                        <!--<Main-Class>com.thinking.project.sample.zip.start.StartProject</Main-Class>-->
+                    <!--</manifestEntries>-->
                 </configuration>
             </plugin>
             <plugin>
