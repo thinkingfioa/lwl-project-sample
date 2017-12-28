@@ -20,6 +20,6 @@ public class PropertiesUtilTest {
 
     @Test
     public void accessProperties() throws Exception {
-        System.out.println(PropertiesUtil.getProperty("propertyKey"));
+        System.out.println(PropertiesUtil.getProperty("project.sample.web.property.key"));
     }
 }
